@@ -6,12 +6,22 @@ public class Equipaments implements Objectes{
 	float duplicador;
 	TipusObjecte tipus;
 	
-	public Equipaments(String nom, int penalitzacio) {
+	public Equipaments(String nom) {
 		super();
 		this.nom = nom;
-		this.duplicador = penalitzacio;
 		this.tipus= TipusObjecte.Equipaments;
 	}
+
+	
+	public float getDuplicador() {
+		return duplicador;
+	}
+
+
+	public void setDuplicador(float duplicador) {
+		this.duplicador = duplicador;
+	}
+
 
 	@Override
 	public String getNom() {

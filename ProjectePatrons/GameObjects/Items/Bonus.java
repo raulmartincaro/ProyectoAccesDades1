@@ -6,12 +6,25 @@ public class Bonus implements Objectes{
 	int punts;
 	TipusObjecte tipus;
 	
-	public Bonus(String nom, int penalitzacio) {
+	public Bonus(String nom) {
 		super();
 		this.nom = nom;
-		this.punts = penalitzacio;
 		this.tipus= TipusObjecte.Bonus;
 	}
+	
+	
+
+	public int getPunts() {
+		return punts;
+	}
+
+
+
+	public void setPunts(int punts) {
+		this.punts = punts;
+	}
+
+
 
 	@Override
 	public String getNom() {

@@ -6,12 +6,25 @@ public class Enemics implements Objectes{
 	int penalitzacio;
 	TipusObjecte tipus;
 	
-	public Enemics(String nom, int penalitzacio) {
+	public Enemics(String nom) {
 		super();
 		this.nom = nom;
-		this.penalitzacio = penalitzacio;
 		this.tipus= TipusObjecte.Enemic;
 	}
+	
+	
+
+	public int getPenalitzacio() {
+		return penalitzacio;
+	}
+
+
+
+	public void setPenalitzacio(int penalitzacio) {
+		this.penalitzacio = penalitzacio;
+	}
+
+
 
 	@Override
 	public String getNom() {

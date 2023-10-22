@@ -6,12 +6,25 @@ public class Tresors implements Objectes{
 	int punts;
 	TipusObjecte tipus;
 	
-	public Tresors(String nom, int penalitzacio) {
+	public Tresors(String nom) {
 		super();
 		this.nom = nom;
-		this.punts = penalitzacio;
 		this.tipus= TipusObjecte.Tresors;
 	}
+	
+	
+
+	public int getPunts() {
+		return punts;
+	}
+
+
+
+	public void setPunts(int punts) {
+		this.punts = punts;
+	}
+
+
 
 	@Override
 	public String getNom() {
@@ -27,7 +40,7 @@ public class Tresors implements Objectes{
 	
 	@Override
 	public String toString() {
-		return "Enemic [nom=" + nom + ", penalitzacio=" + punts + ", tipus=" + tipus + "]";
+		return "Tresor [nom=" + nom + ", punts=" + punts + ", tipus=" + tipus + "]";
 	}
 
 }
