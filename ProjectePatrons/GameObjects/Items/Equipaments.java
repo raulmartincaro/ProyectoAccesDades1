@@ -37,7 +37,7 @@ public class Equipaments implements Objectes{
 	
 	@Override
 	public String toString() {
-		return "Equipament [nom=" + nom + ", penalitzacio=" + duplicador + ", tipus=" + tipus + "]";
+		return "Equipament [nom=" + nom + ", duplicador=" + duplicador + ", tipus=" + tipus + "]";
 	}
 
 }

@@ -25,7 +25,7 @@ public class Main {
 		System.out.println(pirata);
 		
 		Equipaments espasa=(Equipaments) of.create("espasa", TipusObjecte.Equipaments);
-		espasa.setDuplicador(2);
+		espasa.setDuplicador(2.2f);
 		System.out.println(espasa);
 		
 		Bonus hamburguesa=(Bonus) of.create("hamburguesa", TipusObjecte.Bonus);
