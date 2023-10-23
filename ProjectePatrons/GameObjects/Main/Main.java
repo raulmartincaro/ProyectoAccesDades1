@@ -15,6 +15,7 @@ import Items.TipusObjecte;
 import Items.Tresors;
 import Items.Vehicles;
 import Jugadors.*;
+import Punts.ObjecteGuanyat;
 
 public class Main {
 
