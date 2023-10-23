@@ -1,8 +1,8 @@
 package Factory;
 
-import Items.Enemics;
-import Items.Objectes;
-import Items.TipusObjecte;
+import Definition.Enemics;
+import Definition.Objectes;
+import Definition.TipusObjecte;
 
 public class FactoryEnemic implements JocFactory<Objectes>{
 

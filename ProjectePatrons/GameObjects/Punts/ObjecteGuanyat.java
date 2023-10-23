@@ -1,6 +1,6 @@
 package Punts;
 
-import Items.Obtenible;
+import Definition.Obtenible;
 
 public class ObjecteGuanyat {
 	ColectorPunts CP = new ColectorPunts();

@@ -1,6 +1,6 @@
 package Factory;
 
-import Items.TipusObjecte;
+import Definition.TipusObjecte;
 
 public class FactoryProvider   {
 

@@ -1,27 +1,34 @@
 package Factory;
 
-import Items.Bonus;
-import Items.Objectes;
-import Items.TipusObjecte;
+import Definition.Bonus;
+import Definition.Objectes;
+import Definition.TipusObjecte;
+import bonus.Diamant;
+import bonus.Hamburguesa;
+import bonus.RedBull;
 
 public class FactoryBonus implements JocFactory<Objectes> {
 
 	@Override
-	public Objectes create(String nombre, TipusObjecte t, int valor) {
+	public Objectes create(String nombre, TipusObjecte t) {
 		System.out.println("S'ha creat un bonus.");
-		return new Bonus(nombre,valor);
+		switch(nombre) {
+		case "Hamburguesa":
+			System.out.println("S'ha creat una hamburguesa.");
+			return new Hamburguesa(nombre);
+		case "Diamant":
+			System.out.println("S'ha creat un diamant.");
+			return new Diamant(nombre);
+		case "RedBull":
+			System.out.println("S'ha creat un redbull.");
+			return new RedBull(nombre);
+		default:
+			System.out.println("Objecte incorrecte");
+			return null;
+		}
+	
 	}
 
-	@Override
-	public Objectes create(String n, TipusObjecte t) {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
-	@Override
-	public Objectes create(String n, TipusObjecte t, float n2) {
-		// TODO Auto-generated method stub
-		return null;
-	}
+	
 
 }

@@ -1,4 +1,4 @@
-package Items;
+package Definition;
 
 public class Enemics implements Objectes, Obtenible{
 

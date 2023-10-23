@@ -1,13 +1,17 @@
-package Items;
+package vehicles;
 
-public class Vehicles implements Objectes{
+import Definition.TipusObjecte;
+import Definition.Vehicles;
 
+public class AlaDelta implements Vehicles {
+	
 	String nom;
 	TipusObjecte tipus;
 	
-	public Vehicles(String nom) {
+	public AlaDelta(String nom) {
 		this.nom = nom;
 		this.tipus= TipusObjecte.Vehicles;
+		
 	}
 
 	@Override
@@ -15,16 +19,20 @@ public class Vehicles implements Objectes{
 		// TODO Auto-generated method stub
 		return nom;
 	}
-
+	
 	@Override
 	public TipusObjecte getTipus() {
 		// TODO Auto-generated method stub
-		return null;
+		return tipus;
 	}
 	
+
 	@Override
 	public String toString() {
-		return "Vechicle [nom=" + nom + ", tipus=" + tipus + "]";
+		return "Ala delta [nom=" + nom + ", tipus=" + tipus + "]";
 	}
+
+	
+	
 
 }

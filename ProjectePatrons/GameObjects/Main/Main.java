@@ -2,18 +2,18 @@ package Main;
 
 import java.util.LinkedList;
 
+import Definition.Bonus;
+import Definition.Enemics;
+import Definition.Equipaments;
+import Definition.TipusObjecte;
+import Definition.Tresors;
+import Definition.Vehicles;
 import Factory.FactoryBonus;
 import Factory.FactoryEnemic;
 import Factory.FactoryEquipament;
 import Factory.FactoryProvider;
 import Factory.FactoryTresors;
 import Factory.FactoryVehicle;
-import Items.Bonus;
-import Items.Enemics;
-import Items.Equipaments;
-import Items.TipusObjecte;
-import Items.Tresors;
-import Items.Vehicles;
 import Jugadors.*;
 import Punts.ObjecteGuanyat;
 
@@ -41,11 +41,11 @@ public class Main {
 		FactoryProvider of= new FactoryProvider();
 
 		FactoryTresors ft=(FactoryTresors) of.getFactory(TipusObjecte.Tresors);
-		Tresors moneda=(Tresors) ft.create("moneda", TipusObjecte.Tresors,10);
+		Tresors moneda=(Tresors) ft.create("Moneda", TipusObjecte.Tresors);
 		System.out.println(moneda);
 
 		FactoryVehicle fv =(FactoryVehicle) of.getFactory(TipusObjecte.Vehicles);
-		Vehicles cotxe=(Vehicles) fv.create("cotxe", TipusObjecte.Vehicles);
+		Vehicles cotxe=(Vehicles) fv.create("Cotxe", TipusObjecte.Vehicles);
 		System.out.println(cotxe);
 
 		FactoryEnemic fe =(FactoryEnemic) of.getFactory(TipusObjecte.Enemic);
@@ -57,7 +57,7 @@ public class Main {
 		System.out.println(espasa);
 
 		FactoryBonus fb =(FactoryBonus) of.getFactory(TipusObjecte.Bonus);
-		Bonus hamburguesa =(Bonus) fb.create("hamburguesa", TipusObjecte.Bonus,500);
+		Bonus hamburguesa =(Bonus) fb.create("Hamburguesa", TipusObjecte.Bonus);
 		System.out.println(hamburguesa);
 
 		ObjecteGuanyat og = new ObjecteGuanyat();

@@ -1,8 +1,8 @@
 package Factory;
 
-import Items.Equipaments;
-import Items.Objectes;
-import Items.TipusObjecte;
+import Definition.Equipaments;
+import Definition.Objectes;
+import Definition.TipusObjecte;
 
 public class FactoryEquipament implements JocFactory<Objectes>{
 
