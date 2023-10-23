@@ -1,5 +1,6 @@
-package Items;
+package Factory;
 
+import Items.TipusObjecte;
 
 public interface JocFactory <T>{
 	

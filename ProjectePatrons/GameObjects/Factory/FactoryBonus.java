@@ -1,4 +1,8 @@
-package Items;
+package Factory;
+
+import Items.Bonus;
+import Items.Objectes;
+import Items.TipusObjecte;
 
 public class FactoryBonus implements JocFactory<Objectes> {
 

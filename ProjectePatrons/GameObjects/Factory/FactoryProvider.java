@@ -1,4 +1,6 @@
-package Items;
+package Factory;
+
+import Items.TipusObjecte;
 
 public class FactoryProvider   {
 

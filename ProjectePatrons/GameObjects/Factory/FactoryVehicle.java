@@ -1,20 +1,21 @@
-package Items;
+package Factory;
 
-public class FactoryEnemic implements JocFactory<Objectes>{
+import Items.Objectes;
+import Items.TipusObjecte;
+import Items.Vehicles;
 
+public class FactoryVehicle implements JocFactory<Objectes>{
 
 	@Override
 	public Objectes create(String n, TipusObjecte t, int n2) {
-		
-	System.out.println("S'ha creat un enemic.");
-
-		return new Enemics(n, n2);
+		return null;
 	}
-
+	
 	@Override
 	public Objectes create(String n, TipusObjecte t) {
-		// TODO Auto-generated method stub
-		return null;
+		System.out.println("S'ha creat un vehicle.");
+
+		return new Vehicles(n);
 	}
 
 	@Override

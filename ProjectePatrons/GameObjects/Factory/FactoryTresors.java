@@ -1,17 +1,23 @@
-package Items;
+package Factory;
 
-public class FactoryVehicle implements JocFactory<Objectes>{
+import Items.Objectes;
+import Items.TipusObjecte;
+import Items.Tresors;
 
+public class FactoryTresors implements JocFactory<Objectes>{
+
+	
+	
 	@Override
 	public Objectes create(String n, TipusObjecte t, int n2) {
-		return null;
+		System.out.println("S'ha creat un tresor.");
+
+		return new Tresors(n,n2);
 	}
 	
 	@Override
 	public Objectes create(String n, TipusObjecte t) {
-		System.out.println("S'ha creat un vehicle.");
-
-		return new Vehicles(n);
+		return null;
 	}
 
 	@Override
@@ -19,5 +25,9 @@ public class FactoryVehicle implements JocFactory<Objectes>{
 		// TODO Auto-generated method stub
 		return null;
 	}
+
+	
+
+	
 
 }
