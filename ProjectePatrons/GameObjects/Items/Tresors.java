@@ -5,10 +5,12 @@ public class Tresors implements Objectes, Obtenible{
 	String nom;
 	int punts;
 	TipusObjecte tipus;
-	
-	public Tresors(String nom) {
+
+	public Tresors(String nom, int pun) {
+		super();
 		this.nom = nom;
 		this.tipus= TipusObjecte.Tresors;
+		this.punts=pun;
 	}
 	public int getPunts() {
 		return punts;
@@ -31,7 +33,7 @@ public class Tresors implements Objectes, Obtenible{
 		// TODO Auto-generated method stub
 		return null;
 	}
-	
+
 	@Override
 	public String toString() {
 		return "Tresor [nom=" + nom + ", punts=" + punts + ", tipus=" + tipus + "]";
