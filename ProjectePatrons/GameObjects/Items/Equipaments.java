@@ -6,10 +6,11 @@ public class Equipaments implements Objectes{
 	float duplicador;
 	TipusObjecte tipus;
 	
-	public Equipaments(String nom) {
+	public Equipaments(String nom, float supli) {
 		super();
 		this.nom = nom;
 		this.tipus= TipusObjecte.Equipaments;
+		this.duplicador=supli;
 	}
 
 	

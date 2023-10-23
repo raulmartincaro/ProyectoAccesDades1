@@ -6,10 +6,11 @@ public class Bonus implements Objectes{
 	int punts;
 	TipusObjecte tipus;
 	
-	public Bonus(String nom) {
+	public Bonus(String nom, int puntillos) {
 		super();
 		this.nom = nom;
 		this.tipus= TipusObjecte.Bonus;
+		this.punts=puntillos;
 	}
 	
 	

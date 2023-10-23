@@ -6,10 +6,11 @@ public class Tresors implements Objectes{
 	int punts;
 	TipusObjecte tipus;
 	
-	public Tresors(String nom) {
+	public Tresors(String nom, int pun) {
 		super();
 		this.nom = nom;
 		this.tipus= TipusObjecte.Tresors;
+		this.punts=pun;
 	}
 	
 	
