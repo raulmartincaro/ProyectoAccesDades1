@@ -1,24 +1,18 @@
 package Items;
 
-public class Tresors implements Objectes{
+public class Tresors implements Objectes, Obtenible{
 
 	String nom;
 	int punts;
 	TipusObjecte tipus;
 	
 	public Tresors(String nom) {
-		super();
 		this.nom = nom;
 		this.tipus= TipusObjecte.Tresors;
 	}
-	
-	
-
 	public int getPunts() {
 		return punts;
 	}
-
-
 
 	public void setPunts(int punts) {
 		this.punts = punts;

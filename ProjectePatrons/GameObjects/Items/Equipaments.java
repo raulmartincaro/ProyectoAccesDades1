@@ -7,7 +7,6 @@ public class Equipaments implements Objectes{
 	TipusObjecte tipus;
 	
 	public Equipaments(String nom) {
-		super();
 		this.nom = nom;
 		this.tipus= TipusObjecte.Equipaments;
 	}
@@ -39,5 +38,4 @@ public class Equipaments implements Objectes{
 	public String toString() {
 		return "Equipament [nom=" + nom + ", duplicador=" + duplicador + ", tipus=" + tipus + "]";
 	}
-
 }

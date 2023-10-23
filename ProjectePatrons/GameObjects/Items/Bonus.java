@@ -1,13 +1,12 @@
 package Items;
 
-public class Bonus implements Objectes{
+public class Bonus implements Objectes, Obtenible{
 
 	String nom;
 	int punts;
 	TipusObjecte tipus;
 	
 	public Bonus(String nom) {
-		super();
 		this.nom = nom;
 		this.tipus= TipusObjecte.Bonus;
 	}

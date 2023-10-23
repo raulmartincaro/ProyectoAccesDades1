@@ -1,20 +1,17 @@
 package Items;
 
-public class Enemics implements Objectes{
+public class Enemics implements Objectes, Obtenible{
 
 	String nom;
 	int penalitzacio;
 	TipusObjecte tipus;
 	
 	public Enemics(String nom) {
-		super();
 		this.nom = nom;
 		this.tipus= TipusObjecte.Enemic;
 	}
-	
-	
 
-	public int getPenalitzacio() {
+	public int getPunts() {
 		return penalitzacio;
 	}
 
