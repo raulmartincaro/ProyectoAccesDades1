@@ -20,37 +20,33 @@ public class Main {
 
 	public static void main(String[] args) {
 		
-<<<<<<< HEAD
-		FactoryProvider of= new FactoryProvider();
-		
-		FactoryTresors ft=(FactoryTresors) of.getFactory(TipusObjecte.Tresors);	
-		Tresors moneda=(Tresors) ft.create("moneda", TipusObjecte.Tresors,10);
-=======
-		LinkedList<Jugador> pl = new LinkedList<Jugador>(); //PILA AMB ELS JUGADORS
+		LinkedList<Jugador> pl = new LinkedList<Jugador>(); 
+		//PILA AMB ELS JUGADORS
 		
 		//Creacio jugadors
 		JugadorFactory jf = new JugadorFactory();
 		Jugador j1 = jf.createJugador(TipusJugador.Comerciant, "Raul", 50);
-		System.out.println("JUGDAOR 1 CREAT: " + j1.toString());
+		System.out.println("JUGADOR 1 CREAT: " + j1.toString());
 		pl.add(j1);
 		Jugador j2 = jf.createJugador(TipusJugador.Guerrer, "Brian", 55);
-		System.out.println("JUGDAOR 2 CREAT: " + j2.toString());
+		System.out.println("JUGADOR 2 CREAT: " + j2.toString());
 		pl.add(j2);
 		Jugador j3 = jf.createJugador(TipusJugador.Explorador, "Pol", 30);
-		System.out.println("JUGDAOR 3 CREAT: " + j3.toString());
+		System.out.println("JUGADOR 3 CREAT: " + j3.toString());
 		pl.add(j3);
 		
+		System.out.println(pl.toString());
 		//Creacio objectes
-		ObjecteFactory of= new ObjecteFactory();
-		Tresors moneda=(Tresors) of.create("moneda", TipusObjecte.Tresors);
-		moneda.setPunts(10);
->>>>>>> FactoryMethod-players
+		FactoryProvider of= new FactoryProvider();
+		
+		FactoryTresors ft=(FactoryTresors) of.getFactory(TipusObjecte.Tresors);	
+		Tresors moneda=(Tresors) ft.create("moneda", TipusObjecte.Tresors,10);
 		System.out.println(moneda);
 		
 		FactoryVehicle fv =(FactoryVehicle) of.getFactory(TipusObjecte.Vehicles);	
 		Vehicles cotxe=(Vehicles) fv.create("cotxe", TipusObjecte.Vehicles);
 		System.out.println(cotxe);
-		
+				
 		FactoryEnemic fe =(FactoryEnemic) of.getFactory(TipusObjecte.Enemic);	
 		Enemics pirata =(Enemics) fe.create("pirata", TipusObjecte.Enemic,50);
 		System.out.println(pirata);
@@ -62,7 +58,6 @@ public class Main {
 		FactoryBonus fb =(FactoryBonus) of.getFactory(TipusObjecte.Bonus);	
 		Bonus hamburguesa =(Bonus) fb.create("hamburguesa", TipusObjecte.Bonus,500);
 		System.out.println(hamburguesa);
-		
 		
 		
 	}
