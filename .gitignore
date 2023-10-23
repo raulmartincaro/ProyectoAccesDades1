@@ -61,6 +61,13 @@ target/**
 *.ear
 *.class
 
+<<<<<<< HEAD
+# Uncomment this line if you wish to ignore the project description file.
+# Typically, this file would be tracked if it contains build/dependency configurations:
+#.project
+.metadata/.plugins/org.eclipse.core.resources/0.snap
+.metadata/.plugins/org.eclipse.core.resources/.root/.markers.snap
+=======
 # eclipse specific
 *.pydevproject
 .project
@@ -104,6 +111,14 @@ local.properties
 .metadata/.plugins/org.eclipse.ui.workbench/workingsets.xml
 .metadata/version.ini
 .metadata/.log
+.metadata/.plugins/org.eclipse.core.resources/.root/.markers.snap
+.metadata/.plugins/org.eclipse.core.resources/0.snap
+<<<<<<< HEAD
+=======
+>>>>>>> decorator
+.metadata/.plugins/org.eclipse.core.resources/.root/.markers.snap
+.metadata/.plugins/org.eclipse.core.resources/0.snap
+>>>>>>> main
 .metadata/.plugins/org.eclipse.core.resources/.root/.markers.snap
 .metadata/.plugins/org.eclipse.core.resources/0.snap
 .metadata/.plugins/org.eclipse.core.resources/.root/.markers.snap
