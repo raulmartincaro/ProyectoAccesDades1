@@ -1,19 +1,19 @@
 package Items;
 
-public class Bonus implements Objectes{
+public class Bonus implements Objectes, Obtenible{
 
 	String nom;
 	int punts;
 	TipusObjecte tipus;
-	
+
 	public Bonus(String nom, int puntillos) {
 		super();
 		this.nom = nom;
 		this.tipus= TipusObjecte.Bonus;
 		this.punts=puntillos;
 	}
-	
-	
+
+
 
 	public int getPunts() {
 		return punts;
@@ -38,7 +38,7 @@ public class Bonus implements Objectes{
 		// TODO Auto-generated method stub
 		return tipus;
 	}
-	
+
 	@Override
 	public String toString() {
 		return "Bonus [nom=" + nom + ", puntuacio=" + punts + ", tipus=" + tipus + "]";

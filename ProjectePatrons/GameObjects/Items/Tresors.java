@@ -1,25 +1,20 @@
 package Items;
 
-public class Tresors implements Objectes{
+public class Tresors implements Objectes, Obtenible{
 
 	String nom;
 	int punts;
 	TipusObjecte tipus;
-	
+
 	public Tresors(String nom, int pun) {
 		super();
 		this.nom = nom;
 		this.tipus= TipusObjecte.Tresors;
 		this.punts=pun;
 	}
-	
-	
-
 	public int getPunts() {
 		return punts;
 	}
-
-
 
 	public void setPunts(int punts) {
 		this.punts = punts;
@@ -38,7 +33,7 @@ public class Tresors implements Objectes{
 		// TODO Auto-generated method stub
 		return null;
 	}
-	
+
 	@Override
 	public String toString() {
 		return "Tresor [nom=" + nom + ", punts=" + punts + ", tipus=" + tipus + "]";

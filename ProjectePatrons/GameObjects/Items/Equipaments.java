@@ -5,7 +5,7 @@ public class Equipaments implements Objectes{
 	String nom;
 	float duplicador;
 	TipusObjecte tipus;
-	
+
 	public Equipaments(String nom, float supli) {
 		super();
 		this.nom = nom;
@@ -13,7 +13,7 @@ public class Equipaments implements Objectes{
 		this.duplicador=supli;
 	}
 
-	
+
 	public float getDuplicador() {
 		return duplicador;
 	}
@@ -35,10 +35,9 @@ public class Equipaments implements Objectes{
 		// TODO Auto-generated method stub
 		return tipus;
 	}
-	
+
 	@Override
 	public String toString() {
 		return "Equipament [nom=" + nom + ", duplicador=" + duplicador + ", tipus=" + tipus + "]";
 	}
-
 }

@@ -6,7 +6,6 @@ public class Vehicles implements Objectes{
 	TipusObjecte tipus;
 	
 	public Vehicles(String nom) {
-		super();
 		this.nom = nom;
 		this.tipus= TipusObjecte.Vehicles;
 	}
