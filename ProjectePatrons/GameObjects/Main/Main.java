@@ -49,11 +49,11 @@ public class Main {
 		System.out.println(cotxe);
 
 		FactoryEnemic fe =(FactoryEnemic) of.getFactory(TipusObjecte.Enemic);
-		Enemics pirata =(Enemics) fe.create("pirata", TipusObjecte.Enemic,50);
+		Enemics pirata =(Enemics) fe.create("Pirata", TipusObjecte.Enemic);
 		System.out.println(pirata);
 
 		FactoryEquipament fequip =(FactoryEquipament) of.getFactory(TipusObjecte.Equipaments);
-		Equipaments espasa=(Equipaments) fequip.create("espasa", TipusObjecte.Equipaments,2.2f);
+		Equipaments espasa=(Equipaments) fequip.create("Espasa", TipusObjecte.Equipaments);
 		System.out.println(espasa);
 
 		FactoryBonus fb =(FactoryBonus) of.getFactory(TipusObjecte.Bonus);
