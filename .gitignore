@@ -65,6 +65,7 @@ target/**
 # Uncomment this line if you wish to ignore the project description file.
 # Typically, this file would be tracked if it contains build/dependency configurations:
 #.project
+<<<<<<< HEAD
 .metadata/.plugins/org.eclipse.core.resources/0.snap
 .metadata/.plugins/org.eclipse.core.resources/.root/.markers.snap
 =======
@@ -125,12 +126,26 @@ local.properties
 .metadata/.plugins/org.eclipse.core.resources/0.snap
 <<<<<<< HEAD
 .metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.index
+=======
+.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources
+>>>>>>> main
 .metadata/.log
 .metadata/.plugins/org.eclipse.core.resources/.root/.markers.snap
 .metadata/.plugins/org.eclipse.core.resources/0.snap
 .metadata/.plugins/org.eclipse.jdt.core/variablesAndContainers.dat
+<<<<<<< HEAD
 =======
 .metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources
 >>>>>>> origin/Jugadores-Interface
 .metadata/.plugins/org.eclipse.core.resources/.root/.markers.snap
 .metadata/.plugins/org.eclipse.core.resources/0.snap
+=======
+.metadata/.plugins/org.eclipse.ui.workbench/workingsets.xml
+.metadata/version.ini
+>>>>>>> main
+.metadata/version.ini
+.metadata/.plugins/org.eclipse.ui.workbench/workingsets.xml
+.metadata/.plugins/org.eclipse.core.resources/0.snap
+.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources
+.metadata/.plugins/org.eclipse.core.resources/.root/.markers.snap
+.metadata/.log
