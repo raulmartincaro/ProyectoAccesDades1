@@ -1,23 +1,26 @@
-package Items;
+package enemic;
 
-public class Enemics implements Objectes{
+import Definition.Enemics;
+import Definition.TipusObjecte;
+
+public class Monstre implements Enemics{
 
 	String nom;
 	int penalitzacio;
 	TipusObjecte tipus;
-	
-	public Enemics(String nom) {
+
+	public Monstre(String nom) {
 		super();
 		this.nom = nom;
 		this.tipus= TipusObjecte.Enemic;
+		this.penalitzacio= 10;
 	}
-	
-	
 
-	public int getPenalitzacio() {
+	@Override
+	public int getPunts() {
+		// TODO Auto-generated method stub
 		return penalitzacio;
 	}
-
 
 
 	public void setPenalitzacio(int penalitzacio) {
@@ -37,10 +40,9 @@ public class Enemics implements Objectes{
 		// TODO Auto-generated method stub
 		return tipus;
 	}
-	
+
 	@Override
 	public String toString() {
-		return "Enemic [nom=" + nom + ", penalitzacio=" + penalitzacio + ", tipus=" + tipus + "]";
+		return "Monstre [nom=" + nom + ", penalitzacio=" + penalitzacio + ", tipus=" + tipus + "]";
 	}
-
 }
