@@ -65,3 +65,4 @@ local.properties
 .metadata/.plugins/org.eclipse.jdt.core/variablesAndContainers.dat
 .metadata/.plugins/org.eclipse.ui.workbench/workingsets.xml
 .metadata/version.ini
+.metadata/.plugins/org.eclipse.m2e.logback.configuration/0.log
