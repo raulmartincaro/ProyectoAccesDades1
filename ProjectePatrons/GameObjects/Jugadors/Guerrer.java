@@ -73,4 +73,10 @@ public class Guerrer implements Jugador {
 		return "Exploraror [nom=" + nom + ", puntuacio=" + puntuacio + ", saldo=" + saldo + ", tipus=" + tipus + "]";
 	}
 
+	@Override
+	public String decorate() {
+		// TODO Auto-generated method stub
+		return "Guerrer ";
+	}
+
 }

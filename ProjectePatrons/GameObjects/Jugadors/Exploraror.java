@@ -72,4 +72,10 @@ public class Exploraror implements Jugador {
 	public String toString() {
 		return "Exploraror [nom=" + nom + ", puntuacio=" + puntuacio + ", saldo=" + saldo + ", tipus=" + tipus + "]";
 	}
+
+	@Override
+	public String decorate() {
+		// TODO Auto-generated method stub
+		return "Explorador ";
+	}
 }
