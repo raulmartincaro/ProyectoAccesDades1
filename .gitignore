@@ -148,4 +148,8 @@ local.properties
 .metadata/.plugins/org.eclipse.core.resources/0.snap
 .metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources
 .metadata/.plugins/org.eclipse.core.resources/.root/.markers.snap
+<<<<<<< HEAD
 .metadata/.log
+=======
+.metadata/.plugins/org.eclipse.core.resources/0.snap
+>>>>>>> origin/Adapter-Pol
