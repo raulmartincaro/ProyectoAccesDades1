@@ -2,8 +2,9 @@ package enemic;
 
 import Definition.Enemics;
 import Definition.TipusObjecte;
+import Definition.TreuPunts;
 
-public class Bestia implements Enemics{
+public class Bestia implements Enemics, TreuPunts{
 
 	String nom;
 	int penalitzacio;
@@ -44,6 +45,11 @@ public class Bestia implements Enemics{
 	@Override
 	public String toString() {
 		return "Bestia [nom=" + nom + ", penalitzacio=" + penalitzacio + ", tipus=" + tipus + "]";
+	}
+
+	@Override
+	public int RestaPunts() {
+		return penalitzacio;
 	}
 
 	
