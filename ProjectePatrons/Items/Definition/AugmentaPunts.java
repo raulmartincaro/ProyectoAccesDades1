@@ -1,5 +1,5 @@
 package Definition;
 
 public interface AugmentaPunts {
-	int SumaPunts();
+	double SumaPunts();
 }

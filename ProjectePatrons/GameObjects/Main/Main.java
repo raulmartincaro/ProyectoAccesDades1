@@ -16,6 +16,7 @@ import Factory.FactoryTresors;
 import Factory.FactoryVehicle;
 import Jugadors.*;
 import Punts.ObjecteGuanyat;
+import Punts.TipusJugadorDelFactoryMethod;
 import equipament.Espasa;
 import equipament.Laxant;
 import vehicles.Cotxe;
@@ -64,8 +65,15 @@ public class Main {
 		System.out.println(hamburguesa);
 
 		ObjecteGuanyat og = new ObjecteGuanyat();
+		System.err.println("______________________________________________________>");
+		System.out.println(j3);
+		og.darObjetoAJugador(hamburguesa, new TipusJugadorDelFactoryMethod(j3));
+		og.darObjetoAJugador(hamburguesa, new TipusJugadorDelFactoryMethod(j3));
+		og.darObjetoAJugador(hamburguesa, new TipusJugadorDelFactoryMethod(j3));
+		og.darObjetoAJugador(hamburguesa, new TipusJugadorDelFactoryMethod(j3));
+		System.out.println(j3);
 		
 		Jugador j7 = new ColorDecorator(new Espasa (new Cotxe( new Laxant( new Comerciant("j7", 0, 0),"CagaMucho"),"k7"),"Hacedora de lloronas"),Color.AQUA);
-		System.out.println(j7.decorate());
+		System.out.println(j7.decorate());		
 	}
 }

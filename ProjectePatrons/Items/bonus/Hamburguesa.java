@@ -1,10 +1,9 @@
 package bonus;
 
-import Definition.AugmentaPunts;
 import Definition.Bonus;
 import Definition.TipusObjecte;
 
-public class Hamburguesa implements Bonus, AugmentaPunts{
+public class Hamburguesa implements Bonus{
 
 	String nom;
 	int punts;
@@ -38,13 +37,5 @@ public class Hamburguesa implements Bonus, AugmentaPunts{
 	public String toString() {
 		return "Hamburguesa [nom=" + nom + ", puntuacio=" + punts + ", tipus=" + tipus + "]";
 	}
-
-	@Override
-	public int SumaPunts() {
-		return punts;
-	}
-
-	
-	
 
 }

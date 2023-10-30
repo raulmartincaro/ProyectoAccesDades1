@@ -1,10 +1,9 @@
 package bonus;
 
-import Definition.AugmentaPunts;
 import Definition.Bonus;
 import Definition.TipusObjecte;
 
-public class RedBull implements Bonus, AugmentaPunts{
+public class RedBull implements Bonus{
 
 	String nom;
 	int punts;
@@ -39,13 +38,6 @@ public class RedBull implements Bonus, AugmentaPunts{
 		return "RedBull [nom=" + nom + ", puntuacio=" + punts + ", tipus=" + tipus + "]";
 	}
 
-	@Override
-	public int SumaPunts() {
-		return punts;
-	}
-
-	
-	
 
 }
 
