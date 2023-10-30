@@ -18,6 +18,7 @@ public class AlaDelta extends JugadorDecorator implements Vehicles {
 	}
 	
 	public AlaDelta(String nom) {
+		super(null);
 		this.nom = nom;
 		this.tipus= TipusObjecte.Vehicles;
 		
@@ -58,12 +59,30 @@ public class AlaDelta extends JugadorDecorator implements Vehicles {
 		
 	}
 
-	public String decorate() {
-		return super.decorate()+ conduciendo();
+	
+
+	@Override
+	public String getColor() {
+		// TODO Auto-generated method stub
+		return null;
 	}
 
-	private String conduciendo() {
-		return "conduciendo un ala delta con el nombre "+nom+" ";
+	@Override
+	public String getEquipments() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String getVheicle() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void addOwner(Jugadors.Jugador j) {
+		// TODO Auto-generated method stub
+		
 	}
 	
 

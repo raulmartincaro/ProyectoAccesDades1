@@ -1,20 +1,9 @@
 package Jugadors;
 
 public abstract class JugadorDecorator implements Jugador{
-
-	private Jugador jugador;
+	public Jugador Jugador;
 	
-	public JugadorDecorator(Jugador object){
-		this.jugador=object;
+	public JugadorDecorator(Jugador j){
+		Jugador=j;
 	}
-	
-	public JugadorDecorator() {
-		// TODO Auto-generated constructor stub
-	}
-
-	@Override
-	public String decorate() {
-		return jugador.decorate();
-	}
-	
 }

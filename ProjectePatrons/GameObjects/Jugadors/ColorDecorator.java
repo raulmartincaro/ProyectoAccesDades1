@@ -1,12 +1,11 @@
 package Jugadors;
 
 public class ColorDecorator extends JugadorDecorator {
-
-	Color color;
+	Color c;
 	
-	public ColorDecorator(Jugador object, Color c) {
-		super(object);
-		this.color=c;
+	public ColorDecorator(Jugadors.Jugador j, Color c) {
+		super(j);
+		this.c = c;
 	}
 
 	@Override
@@ -24,16 +23,24 @@ public class ColorDecorator extends JugadorDecorator {
 	@Override
 	public void setPuntuacio(int punts) {
 		// TODO Auto-generated method stub
-		
 	}
-	
-	public String decorate() {
-		return super.decorate()+decorateColor();
+
+	@Override
+	public String getColor() {
+		// TODO Auto-generated method stub
+		return super.Jugador.getColor() + c;
 	}
-	
-	
-	private String decorateColor() {
-		return "de color "+color+" ";
+
+	@Override
+	public String getEquipments() {
+		// TODO Auto-generated method stub
+		return super.Jugador.getEquipments();
+	}
+
+	@Override
+	public String getVheicle() {
+		// TODO Auto-generated method stub
+		return super.Jugador.getVheicle();
 	}
 
 }

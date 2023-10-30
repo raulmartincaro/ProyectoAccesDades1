@@ -73,9 +73,22 @@ public class Exploraror implements Jugador {
 		return "Exploraror [nom=" + nom + ", puntuacio=" + puntuacio + ", saldo=" + saldo + ", tipus=" + tipus + "]";
 	}
 
+
 	@Override
-	public String decorate() {
+	public String getColor() {
 		// TODO Auto-generated method stub
-		return "Explorador ";
+		return null;
+	}
+
+	@Override
+	public String getEquipments() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String getVheicle() {
+		// TODO Auto-generated method stub
+		return null;
 	}
 }

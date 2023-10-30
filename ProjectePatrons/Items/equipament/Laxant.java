@@ -8,19 +8,21 @@ import Jugadors.TipusJugador;
 
 public class Laxant extends JugadorDecorator implements Equipaments{
 
+	public Laxant(String nom,Jugadors.Jugador j) {
+		super(j);
+		this.nom = nom;
+		this.tipus= TipusObjecte.Equipaments;
+		this.duplicador=2;
+	}
+
+
 	String nom;
 	float duplicador;
 	TipusObjecte tipus;
 
-	public Laxant(Jugador object,String nom) {
-		super(object);
-		this.nom = nom;
-		this.tipus= TipusObjecte.Equipaments;
-		this.duplicador=0.25f;
-	}
 	
 	public Laxant(String nom) {
-		super();
+		super(null);
 		this.nom = nom;
 		this.tipus= TipusObjecte.Equipaments;
 		this.duplicador=2;
@@ -47,7 +49,7 @@ public class Laxant extends JugadorDecorator implements Equipaments{
 		return nom;
 	}
 
-	@Override
+
 	public TipusObjecte getTipus() {
 		// TODO Auto-generated method stub
 		return tipus;
@@ -56,6 +58,12 @@ public class Laxant extends JugadorDecorator implements Equipaments{
 	@Override
 	public String toString() {
 		return "Laxant [nom=" + nom + ", duplicador=" + duplicador + ", tipus=" + tipus + "]";
+	}
+
+
+	
+	private String aramadoCon() {
+		return "armado con un laxante cuyo nombre es "+nom+" ";
 	}
 
 
@@ -71,11 +79,32 @@ public class Laxant extends JugadorDecorator implements Equipaments{
 		// TODO Auto-generated method stub
 		
 	}
-	public String decorate() {
-		return super.decorate()+ aramadoCon();
+
+
+	@Override
+	public String getColor() {
+		// TODO Auto-generated method stub
+		return super.Jugador.getColor();
 	}
 
-	private String aramadoCon() {
-		return "armado con un laxante cuyo nombre es "+nom+" ";
+
+	@Override
+	public String getEquipments() {
+		// TODO Auto-generated method stub
+		return super.Jugador.getEquipments()+"Laxant ";
+	}
+
+
+	@Override
+	public String getVheicle() {
+		// TODO Auto-generated method stub
+		return super.Jugador.getVheicle();
+	}
+
+
+	@Override
+	public void addOwner(Jugadors.Jugador j) {
+		super.Jugador = j;
+		
 	}
 }

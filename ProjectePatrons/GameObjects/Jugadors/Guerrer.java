@@ -74,9 +74,20 @@ public class Guerrer implements Jugador {
 	}
 
 	@Override
-	public String decorate() {
+	public String getColor() {
+		return "Color: ";
+	}
+
+	@Override
+	public String getEquipments() {
 		// TODO Auto-generated method stub
-		return "Guerrer ";
+		return "Equipamient: ";
+	}
+
+	@Override
+	public String getVheicle() {
+		// TODO Auto-generated method stub
+		return null;
 	}
 
 }
