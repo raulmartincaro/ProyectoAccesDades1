@@ -22,6 +22,11 @@ public class AlaDelta extends JugadorDecorator implements Vehicles {
 		this.tipus= TipusObjecte.Vehicles;
 		
 	}
+	
+	public void setNom(String n) {
+		this.nom=n;
+	}
+
 
 	@Override
 	public String getNom() {

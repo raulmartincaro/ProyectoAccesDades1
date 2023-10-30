@@ -2,10 +2,6 @@ package Factory;
 
 import Definition.Objectes;
 import Definition.TipusObjecte;
-import Definition.Vehicles;
-import tresors.CofreTresor;
-import tresors.LingotOr;
-import tresors.Moneda;
 import vehicles.AlaDelta;
 import vehicles.Barca;
 import vehicles.Cotxe;

@@ -23,6 +23,10 @@ public class Barca extends JugadorDecorator implements Vehicles{
 		
 	}
 
+	public void setNom(String n) {
+		this.nom=n;
+	}
+
 	@Override
 	public String getNom() {
 		// TODO Auto-generated method stub

@@ -36,7 +36,11 @@ public class Laxant extends JugadorDecorator implements Equipaments{
 		this.duplicador = duplicador;
 	}
 
+	public void setNom(String n) {
+		this.nom=n;
+	}
 
+	
 	@Override
 	public String getNom() {
 		// TODO Auto-generated method stub
