@@ -180,3 +180,5 @@ ProjectePatrons/Items/vehicles/Patinet.java
 *.java
 *.index
 *.index
+.metadata/.plugins/org.eclipse.core.resources/.root/.markers.snap
+.metadata/.plugins/org.eclipse.m2e.logback.configuration/0.log
