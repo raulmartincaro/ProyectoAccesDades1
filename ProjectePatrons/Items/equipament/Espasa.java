@@ -92,7 +92,7 @@ public class Espasa extends JugadorDecorator implements Equipaments{
 	@Override
 	public TipusObjecte getTipus() {
 		// TODO Auto-generated method stub
-		return null;
+		return this.tipus;
 	}
 	
 }

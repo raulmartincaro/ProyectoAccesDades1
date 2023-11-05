@@ -64,26 +64,28 @@ public class Patinet extends JugadorDecorator implements Vehicles{
 	@Override
 	public String getColor() {
 		// TODO Auto-generated method stub
-		return null;
+		return super.Jugador.getColor();
 	}
+
 
 	@Override
 	public String getEquipments() {
 		// TODO Auto-generated method stub
-		return null;
+		return super.Jugador.getEquipments();
 	}
+
 
 	@Override
 	public String getVheicle() {
 		// TODO Auto-generated method stub
-		return null;
+		return super.Jugador.getVheicle() +"Patinet";
 	}
+
 
 	@Override
 	public void addOwner(Jugadors.Jugador j) {
-		// TODO Auto-generated method stub
+		super.Jugador = j;
 		
 	}
-	
 
 }
