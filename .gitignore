@@ -220,3 +220,6 @@ ProjectePatrons/Items/vehicles/Patinet.java
 .metadata/.plugins/org.eclipse.m2e.logback.configuration/0.log
 .metadata/.plugins/org.eclipse.jdt.core/variablesAndContainers.dat
 .metadata/.log
+.metadata/.log
+.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources
+.metadata/version.ini
