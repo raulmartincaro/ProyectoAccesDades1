@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="Jugadors.Jugador"><rhs name\="Jugadors.ColorDecorator"/></lhs></history>
+=======
+content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="Items.JocFactory"><rhs name\="Items.FactoryBonus"/><rhs name\="Items.FactoryTresors"/><rhs name\="Items.FactoryVehicle"/><rhs name\="Items.FactoryEquipament"/><rhs name\="Items.FactoryEnemic"/></lhs><lhs name\="Items.Objectes"><rhs name\="Items.Enemics"/><rhs name\="Items.Vehicles"/><rhs name\="Items.Equipaments"/><rhs name\="Items.Tresors"/></lhs><lhs name\="Definition.Objectes"><rhs name\="bonus.Diamant"/><rhs name\="bonus.RedBull"/><rhs name\="tresors.Moneda"/><rhs name\="tresors.LingotOr"/><rhs name\="tresors.CofreTresor"/><rhs name\="vehicles.AlaDelta"/><rhs name\="vehicles.Barca"/><rhs name\="vehicles.Cotxe"/><rhs name\="vehicles.Patinet"/></lhs></history>
+>>>>>>> decorator
 content_assist_number_of_computers=12
 content_assist_proposals_background=255,255,255
 content_assist_proposals_foreground=0,0,0
