@@ -164,3 +164,4 @@ local.properties
 .metadata/.plugins/org.eclipse.core.resources/.root/.markers.snap
 >>>>>>> 46fa3e65620c641432a93dd1dbd1d2d59a32d9d4
 *.index
+.metadata/.plugins/org.eclipse.m2e.logback.configuration/0.log
