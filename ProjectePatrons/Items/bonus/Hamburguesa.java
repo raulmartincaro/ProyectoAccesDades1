@@ -38,7 +38,4 @@ public class Hamburguesa implements Bonus{
 		return "Hamburguesa [nom=" + nom + ", puntuacio=" + punts + ", tipus=" + tipus + "]";
 	}
 
-	
-	
-
 }

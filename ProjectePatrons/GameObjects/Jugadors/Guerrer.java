@@ -40,7 +40,7 @@ public class Guerrer implements Jugador {
 
 
 	public void setPuntuacio(int puntuacio) {
-		this.puntuacio = puntuacio;
+		this.puntuacio += puntuacio;
 	}
 
 

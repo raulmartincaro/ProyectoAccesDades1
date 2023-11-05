@@ -38,8 +38,6 @@ public class RedBull implements Bonus{
 		return "RedBull [nom=" + nom + ", puntuacio=" + punts + ", tipus=" + tipus + "]";
 	}
 
-	
-	
 
 }
 

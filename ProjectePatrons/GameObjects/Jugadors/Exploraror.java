@@ -39,7 +39,7 @@ public class Exploraror implements Jugador {
 
 
 	public void setPuntuacio(int puntuacio) {
-		this.puntuacio = puntuacio;
+		this.puntuacio += puntuacio;
 	}
 
 

@@ -45,7 +45,5 @@ public class Pirata implements Enemics{
 	public String toString() {
 		return "Pirata [nom=" + nom + ", penalitzacio=" + penalitzacio + ", tipus=" + tipus + "]";
 	}
-
-	
 	
 }

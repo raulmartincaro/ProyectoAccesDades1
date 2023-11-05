@@ -45,4 +45,5 @@ public class Monstre implements Enemics{
 	public String toString() {
 		return "Monstre [nom=" + nom + ", penalitzacio=" + penalitzacio + ", tipus=" + tipus + "]";
 	}
+
 }

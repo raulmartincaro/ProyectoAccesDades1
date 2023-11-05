@@ -38,7 +38,4 @@ public class Diamant implements Bonus{
 		return "Diamant [nom=" + nom + ", puntuacio=" + punts + ", tipus=" + tipus + "]";
 	}
 
-	
-	
-
 }

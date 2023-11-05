@@ -45,7 +45,5 @@ public class Bestia implements Enemics{
 	public String toString() {
 		return "Bestia [nom=" + nom + ", penalitzacio=" + penalitzacio + ", tipus=" + tipus + "]";
 	}
-
-	
 	
 }
