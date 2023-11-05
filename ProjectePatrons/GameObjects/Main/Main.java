@@ -78,7 +78,6 @@ public class Main {
 		System.out.println(hamburguesa);
 
 		ObjecteGuanyat og = new ObjecteGuanyat();
-<<<<<<< HEAD
 
 		Espasa espasa2 = (Espasa) fequip.create("Espasa", TipusObjecte.Equipaments);
 		espasa2.setNom("Hacedora de lloronas");
@@ -99,7 +98,6 @@ public class Main {
 		// Comerciant("j7", 0, 0),"CagaMucho"),"k7"),"Hacedora de
 		// lloronas"),Color.AQUA);
 		// System.out.println(j7.decorate());
-=======
 		System.err.println("______________________________________________________>");
 		System.out.println(j3);
 		og.darObjetoAJugador(hamburguesa, new TipusJugadorDelFactoryMethod(j3));
@@ -108,8 +106,6 @@ public class Main {
 		og.darObjetoAJugador(hamburguesa, new TipusJugadorDelFactoryMethod(j3));
 		System.out.println(j3);
 		
-		Jugador j7 = new ColorDecorator(new Espasa (new Cotxe( new Laxant( new Comerciant("j7", 0, 0),"CagaMucho"),"k7"),"Hacedora de lloronas"),Color.AQUA);
-		System.out.println(j7.decorate());		
->>>>>>> origin/Adapter-Pol
+		
 	}
 }

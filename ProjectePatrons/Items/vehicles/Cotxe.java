@@ -18,9 +18,10 @@ public class Cotxe extends JugadorDecorator implements Vehicles{
 	}
 
 	public Cotxe(String nom) {
+		super(null);
 		this.nom = nom;
-		this.tipus = TipusObjecte.Vehicles;
-
+		this.tipus= TipusObjecte.Vehicles;
+		
 	}
 	public void setNom(String n) {
 		this.nom=n;
@@ -53,14 +54,34 @@ public class Cotxe extends JugadorDecorator implements Vehicles{
 	@Override
 	public void setPuntuacio(int punts) {
 		// TODO Auto-generated method stub
+		
 	}
 
-	public String decorate() {
-		return super.decorate() + conduciendo();
+	
+
+	@Override
+	public String getColor() {
+		// TODO Auto-generated method stub
+		return null;
 	}
 
-	private String conduciendo() {
-		return "conduciendo un coche con el nombre " + nom + " ";
+	@Override
+	public String getEquipments() {
+		// TODO Auto-generated method stub
+		return null;
 	}
+
+	@Override
+	public String getVheicle() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void addOwner(Jugadors.Jugador j) {
+		// TODO Auto-generated method stub
+		
+	}
+	
 
 }
